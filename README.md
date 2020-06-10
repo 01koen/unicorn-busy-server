@@ -1,26 +1,2 @@
-# Simple server for Raspberry Pi with Pimoroni Unicorn hat
-
+# Simple server for MQTT Status light (WEMOS D1 + RGB led Shield running Tasmota firmare)
 ...
-
-## Install
-
-## Service
-
-```
-sudo cp busylight.service /etc/systemd/system/busylight.service
-```
-
-Testing the service:
-
-```
-sudo systemctl start busylight.service
-sudo systemctl stop busylight.service
-sudo systemctl status busylight.service
-```
-
-Enable/disable for startup:
-
-```
-sudo systemctl enable busylight.service
-sudo systemctl disable busylight.service
-```
